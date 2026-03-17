@@ -1,4 +1,5 @@
 This pipeline requires the installation of astrosource as Python environment, with the scripts photometry1_sep.py, photometry2_sep.py and spiders_variability.py ran as command lines from the terminal (e.g. "> spiders_variability.py") within the astrosource environment (#!/home/gudrun/marcotu/python-envs/astrosource/bin/python). The astrosource scripts must be also replaced with the ones uploaded in this gitlab repository at astrosource/ and bin/ directories. The pipeline also requires sep, numpy and astropy libraries (check possible errors for further dependencies). Each code listed below must be place in the "$HOME/bin" folder and ran as command line (e.g. "> sortandmedian.py") in the following order:
+
 #If images coordinates are not aligned with WCS coordinates:
 
 fix_wcs_browser.py
